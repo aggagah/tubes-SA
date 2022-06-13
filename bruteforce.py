@@ -32,8 +32,3 @@ def bruteForce(sentence, pattern):
             print("String not matched with pattern")
     else:
         print("pattern melebihi batas variabel yang diizinkan")
-
-
-sentence = input("Masukkan 3 kata dipisah dengan spasi : ")
-pattern = input("Masukkan pattern berupa 3 huruf (2 variabel): ")
-bruteForce(sentence, pattern)
